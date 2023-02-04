@@ -7,7 +7,7 @@ public class PScript : MonoBehaviour
     public Rigidbody2D theRB;
     public float moveSpeed;
 
-    public Animator myAnim;
+    public Animator myanim;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +18,8 @@ public class PScript : MonoBehaviour
     void Update()
     {
         theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"))*moveSpeed;
-        myAnim.SetFloat("moveX", theRB.velocity.x);
-        myAnim.SetFloat("moveY", theRB.velocity.y);
+        myanim.SetFloat("moveX", theRB.velocity.x);
+        myanim.SetFloat("moveY", theRB.velocity.y);
 
         // if(Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horiztonal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
         // {
