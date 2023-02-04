@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerLoader : MonoBehaviour
 {
-    public GameObject player;
+    public GameObject Player;
     // Start is called before the first frame update
     void Start()
     {
         if (PScript.instance == null)
         {
-            Instantiate(player);
+            Instantiate(Player);
         }
     }
 
