@@ -318,8 +318,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theRB: {fileID: 1330182329}
-  moveSpeed: 0
-  myAnim: {fileID: 0}
+  moveSpeed: 2
+  myanim: {fileID: 0}
 --- !u!1 &1715686050
 GameObject:
   m_ObjectHideFlags: 0
