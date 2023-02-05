@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:AncestryAdventure/Assets/Scenes/settings6.unity.meta
+guid: a9f4063ee10a44e78a0256b133259062
+========
 guid: e8dc376fa21fb452d89b3342e76d0180
 folderAsset: yes
+>>>>>>>> 1820b72c4d15f9c4832b4ab180b7dcc79a7756f8:AncestryAdventure/Assets/Prefabs.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

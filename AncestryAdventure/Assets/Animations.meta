@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:AncestryAdventure/Assets/Scenes/ingameMenu.unity.meta
+guid: 796ba0e57a6bf478bbb681328a407103
+========
 guid: 70e32ff8c2d554ffea076b96afe37bff
 folderAsset: yes
+>>>>>>>> 1820b72c4d15f9c4832b4ab180b7dcc79a7756f8:AncestryAdventure/Assets/Animations.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
