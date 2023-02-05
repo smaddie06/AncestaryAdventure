@@ -10,6 +10,7 @@ public class PScript : MonoBehaviour
     public Animator myanim;
     public static PScript instance;
     public string areaTransitionName;
+    public bool canMove = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +27,14 @@ public class PScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"))*moveSpeed;
-        myanim.SetFloat("moveX", theRB.velocity.x);
-        myanim.SetFloat("moveY", theRB.velocity.y);
+        if (canMove){
+            theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"))*moveSpeed;
+            myanim.SetFloat("moveX", theRB.velocity.x);
+            myanim.SetFloat("moveY", theRB.velocity.y);
+        } else{
+            theRB.velocity = Vector2.zero;
+        }
+
 
         // if(Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horiztonal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
         // {
