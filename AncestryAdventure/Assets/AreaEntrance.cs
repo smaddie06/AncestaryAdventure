@@ -8,10 +8,10 @@ public class AreaEntrance : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     if (transitionName == PScript.instance.areaTransitionName) 
-     {
+    //  if (transitionName == PScript.instance.areaTransitionName) 
+    //  {
         PScript.instance.transform.position = transform.position;
-     }  
+    //  } 
     }
 
     // Update is called once per frame
