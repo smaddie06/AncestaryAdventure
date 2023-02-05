@@ -8,10 +8,19 @@ public class PScript : MonoBehaviour
     public float moveSpeed;
 
     public Animator myanim;
+    public static PScript instance;
+    public string areaTransitionName;
     // Start is called before the first frame update
     void Start()
     {
-       
+        if(instance==null){
+            instance = this;
+        } else
+        {
+            Destroy(gameObject);
+        }
+
+        DontDestroyOnLoad(gameObject);
     }
  
     // Update is called once per frame
