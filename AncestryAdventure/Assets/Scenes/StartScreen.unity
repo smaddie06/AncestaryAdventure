@@ -414,7 +414,7 @@ SpriteRenderer:
   m_Size: {x: 10.14, y: 10.06}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1017624481
@@ -1042,8 +1042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01a36874f17764ae1a4a5bab47e6f879, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SettingsMenu: SettingsMenu
-  testVariable: 
 --- !u!4 &1695137103
 Transform:
   m_ObjectHideFlags: 0
