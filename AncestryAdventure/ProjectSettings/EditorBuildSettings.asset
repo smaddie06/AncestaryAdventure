@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Chapel.unity
+    guid: 7f086e4fb33814bc8a956dca7a15f307
+  - enabled: 1
+    path: Assets/Scenes/Countryside.unity
+    guid: d96639de377f84c5ab4710f986f90fef
+  - enabled: 1
+    path: Assets/Scenes/ingameMenu.unity
+    guid: f8f3e989d72f84c33845cc507bf79fa2
+  - enabled: 1
+    path: Assets/Scenes/settings6.unity
+    guid: f75bc92fd60594c07af0a4a2c3f1a3f4
+  - enabled: 1
     path: Assets/Scenes/SettingsMenu.unity
     guid: 556aabd2c98f34eabbadf9b5df76a17f
   - enabled: 1
@@ -21,12 +33,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Town.unity
     guid: d0f1a3ca4077c422f81a085dd3e60ee8
   - enabled: 1
-    path: Assets/Scenes/Countryside.unity
-    guid: d96639de377f84c5ab4710f986f90fef
-  - enabled: 1
-    path: Assets/Scenes/Chapel.unity
-    guid: 7f086e4fb33814bc8a956dca7a15f307
-  - enabled: 1
-    path: Assets/Scenes/ingameMenu.unity
-    guid: f8f3e989d72f84c33845cc507bf79fa2
+    path: Assets/Scenes/Inventory.unity
+    guid: ac597539d4e3f48408475ea1f3b95117
   m_configObjects: {}

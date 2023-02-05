@@ -4831,7 +4831,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4465530301038675998, guid: de9d31cf3f4bd48f5af7adbaa17a0ab4, type: 3}
       propertyPath: m_Name
-      value: Controller
+      value: inGameMenu
       objectReference: {fileID: 0}
     - target: {fileID: 4465530301038675999, guid: de9d31cf3f4bd48f5af7adbaa17a0ab4, type: 3}
       propertyPath: newScene
