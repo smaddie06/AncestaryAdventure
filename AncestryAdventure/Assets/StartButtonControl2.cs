@@ -13,8 +13,9 @@ public class StartButtonControl2 : MonoBehaviour
     
 
     public void NewGameButton(){
-        SceneManager.LoadScene(mapStart);
-        Debug.Log("HI");
+sb/camera
+        SceneManager.LoadScene("Countryside");
+
     }
 
     public void SettingsButton(){
