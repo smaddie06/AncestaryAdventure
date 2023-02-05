@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapel.unity
     guid: 7f086e4fb33814bc8a956dca7a15f307
+  - enabled: 1
+    path: Assets/Scenes/ingameMenu.unity
+    guid: f8f3e989d72f84c33845cc507bf79fa2
   m_configObjects: {}

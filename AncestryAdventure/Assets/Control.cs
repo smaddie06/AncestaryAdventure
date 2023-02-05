@@ -3,8 +3,10 @@ using UnityEngine.SceneManagement;
  
 public class Control : MonoBehaviour
 {
+    public string newScene;
+
     public void NextScene()
     {
-        SceneManager.LoadScene("Chapel");
+        SceneManager.LoadScene(newScene);
     }
 }

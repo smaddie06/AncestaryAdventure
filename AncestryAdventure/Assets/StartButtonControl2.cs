@@ -12,8 +12,7 @@ public class StartButtonControl2 : MonoBehaviour
     
 
     public void NewGameButton(){
-        SceneManager.LoadScene("Countryside");
-        Debug.Log("HI");
+        SceneManager.LoadScene("PreviousScene");
     }
     // Start is called before the first frame update
 }
